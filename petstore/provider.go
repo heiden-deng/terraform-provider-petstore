@@ -3,8 +3,8 @@ package petstore
 import (
 	"net/url"
 
-	sdk "github.com/TyunTech/go-petstore"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
+	sdk "github.com/heiden-deng/go-petstore"
 )
 
 func Provider() *schema.Provider {

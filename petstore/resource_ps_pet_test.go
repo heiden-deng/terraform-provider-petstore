@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"testing"
 
-	sdk "github.com/TyunTech/go-petstore"
 	"github.com/hashicorp/terraform-plugin-sdk/helper/resource"
 	"github.com/hashicorp/terraform-plugin-sdk/terraform"
+	sdk "github.com/heiden-deng/go-petstore"
 )
 
 func TestAccPSPet_basic(t *testing.T) {

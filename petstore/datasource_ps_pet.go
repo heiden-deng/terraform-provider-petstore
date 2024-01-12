@@ -2,10 +2,10 @@ package petstore
 
 import (
 	"context"
-	sdk "github.com/TyunTech/go-petstore"
 	"github.com/hashicorp/go-multierror"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/diag"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
+	sdk "github.com/heiden-deng/go-petstore"
 	"log"
 )
 

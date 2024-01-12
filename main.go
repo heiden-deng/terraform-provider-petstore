@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/TyunTech/terraform-provider-petstore/petstore"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/plugin"
+	"github.com/heiden-deng/terraform-provider-petstore/petstore"
 	"log"
 )
 
